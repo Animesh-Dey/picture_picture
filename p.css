@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    background-color:#000000;
+}
+.button-container{
+    height: auto;
+    width: 8%;
+    padding: 7px;
+    border: 2px solid black;
+    text-align: center;
+    display:flexbox;
+    justify-items: center;
+    align-items: center;
+    margin-top: 25%;
+    margin-left: 49%;
+    border-radius: 10px;
+    background:#8D8A8A ;
+}
+#button{
+    background: white;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight:lighter;
+    font-size: 25px;
+    text-shadow: 0  2px 5px black;
+}
+button:hover{
+    filter:opacity(70%);
+}
+button:active{
+    transform: translateY(3px);
+}
